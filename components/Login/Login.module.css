@@ -1,0 +1,100 @@
+.mainContainer{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    border: 1px solid var(--gray);
+    width:350px;
+    height:401.99px;
+ }
+ 
+ 
+ .fieldSet {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:0px;
+  
+ }
+
+.boxSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.orLine{
+    height: 1px;
+    width: 104px;
+    background-color:var(--gray);
+}
+
+ .or{
+    position: relative;
+    margin-top:13px;
+    color: var(--fontgray);
+    font-size:13px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+
+ .userName, .password {
+    width:268px;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    background:var(--lightgray);
+    cursor:text;
+ }
+ 
+ 
+ .loginButton {
+    width:294px;
+    height:32px;
+    padding: 5px 12px;
+    font-weight: bold;
+    cursor:pointer;
+    border:0;
+    border-radius:7px;
+    background:var(--lightblue);
+    color:var(--lightgray);
+    margin-top:10px;
+ }
+ 
+ 
+ .facebook{
+    color:var(--bluefacebook);
+    position:relative;
+    left:16px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    cursor:pointer;
+ }
+ 
+ .forgotPassword{
+    color:var(--bluefacebook);
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .facebookLogo{
+    position:relative;
+    right:65px;
+    top:20px;
+ }
+ 
+ 
+ .instagramLogo{
+    top: 30px;
+    padding-top:10px;
+ }
+ 

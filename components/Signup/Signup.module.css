@@ -1,0 +1,29 @@
+.fieldSet {
+    display:flex;
+    flex-direction:column;
+    border:1px solid;
+    justify-content: space-between;
+    border-color:var(--gray);
+    width:326px;
+    position:relative;
+    top:10px;
+ }
+ 
+ 
+ .account{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:var(--black);
+    text-align: center;
+    font-size:13spx;
+    font-weight:400;
+    margin:15px;
+ }
+ 
+ 
+ .signUp{
+    color:var(--lightblue);
+    margin-left:5px;
+    font-weight:bold;
+    cursor:pointer;
+ }
+ 
